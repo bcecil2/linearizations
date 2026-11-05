@@ -1,0 +1,10 @@
+[workspace]
+authors = ["bcecil2 <blakemadness@gmail.com>"]
+channels = ['conda-forge']
+name = "linearizations"
+platforms = ['win-64']
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
