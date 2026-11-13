@@ -1,3 +1,3 @@
-# What Should Mathematics Mean?
+# Philosophie
 
-Linearizations is the name of this site. What do we mean by this? We mean that herein we will provide a first order intuition about mathematical topics. We will adhere to examples over proofs. 
+Linearizations is the name of this site. Nonlinear things are difficult, its always a good idea to retreat to a linearized versions of an object, attempt to grap something there, and hope there is a mapping back to the nonlinear case. We would like to apply this idea to talking about and learning mathematics as well. What do we mean by this? We mean that we will privilege cannonical examples, enlightening computations, and morally correct statements. 
