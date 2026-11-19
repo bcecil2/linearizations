@@ -77,3 +77,27 @@ Once we know this we can also write down the projection map in an easy to unders
     \pi(x,y) &= \sqrt{x^2 + y^2}
 \end{align*}
 ```
+
+There are several important feature of this example
+
+1. $\pi$ is smooth and surjective (its always surjective)
+2. $d\pi$ is surjective
+3. Each fiber $\pi^{1}([x])$ is a closed embedded submanifold of $M$
+
+This motivates the definition taken by [Boumal](https://www.nicolasboumal.net/book/IntroOptimManifolds_Boumal_2023.pdf)[Def 9.1]
+
+```{proof:definition} Quotient Manifold
+Let $M/ \sim$ be a smooth manifold. Then it is a **quotient manifold** if 
+1. $\pi: M \rightarrow M/\sim$ is smooth
+2. $d\pi \ T_x M \rightarrow T_{[x]} M$ is surjective
+```
+
+This seems rather pecuilar at first because we are assuming the manifold itself has a smooth structure, however the motivation appears to have been this theorem from Lee
+
+```{proof:theorem} Uniqueness of Quotients
+Let $M,N_1,N_2$ be smooth manifolds and $\pi_1: M \rightarrow N_1$, $\pi_2: M \rightarrow N_2$
+such that $\pi_1,\pi_2$ are smooth and their differentials are surjective (i.e. submersions).
+Then there exists a unique diffeomorphism $f: N_1 \rightarrow N_2$
+```
+
+So if we take boumals definition and suppose that there are two smooth structures on $(M/ \sim)_1, (M/ \sim)_2$ that make it a quotient manifold then by the uniqueness theorem we see they are actually diffeomorphic. That Boumal fished this theorem out of Lee's tome and defined things in this way is a testament to the care that was taken in writing his book.  
